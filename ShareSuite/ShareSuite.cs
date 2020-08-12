@@ -212,7 +212,7 @@ namespace ShareSuite
             DeadPlayersGetItems = Config.Bind(
                 "Balance",
                 "DeadPlayersGetItems",
-                false,
+                true,
                 "Toggles whether or not dead players should get copies of picked up items."
             );
 
